@@ -27,6 +27,7 @@ public class EjemploCadenas02 {
         
         cadenaFinal = String.format("%sCiudad:%s\n",
                 cadenaFinal, ciudad);
+        //System.out.printf ("%s\n",cadenaFinal);
         
         System.out.println("Ingrese la provincia");
         String provincia = entrada.nextLine(); // 
@@ -34,7 +35,7 @@ public class EjemploCadenas02 {
         cadenaFinal = String.format("%sProvincia:%s\n",  
                 cadenaFinal,
                 provincia);
-        
+        //Esta linea de codigo me permite acumular cadenas 
         System.out.println("Ingrese la país");
         String pais = entrada.nextLine(); // 
         
@@ -43,5 +44,6 @@ public class EjemploCadenas02 {
                 pais);
         
         System.out.printf("%s", cadenaFinal);
+          
     }
 }
