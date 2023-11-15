@@ -14,7 +14,7 @@ public class EjemploCadenas {
         String ciudad = "loJa";
         ciudad = ciudad.toUpperCase();
         System.out.printf("%s\n", ciudad.toLowerCase());
-        //System.out.printf("%s\n", ciudad.toUpperCase());
+        // System.out.printf("%s\n", ciudad.toUpperCase());
         System.out.printf("%s\n", ciudad); 
         // toLowerCase es un metodo que me permite sobrescribir un caracter a letra minusculas
         // toUpperCase es un metodo que me permite sobrescribir un caracter a letra mayusculas 
