@@ -14,8 +14,9 @@ public class Ejemplo02 {
     public static void main(String[] args) {
         String pais;
         
-        pais = "ocuador";
-        char letra = pais.charAt(0);
+        pais = "Ecuador";
+        //      0123456
+        char letra = pais.charAt(0);//CharAt me permite presentar un caracter especifico de una variable string 
         System.out.printf("%s\n", letra);
         
     }
